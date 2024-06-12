@@ -10,11 +10,13 @@ This project focuses on automating the resume screening process using Natural La
 
 Text Preprocessing: 
 
+
 Clean and preprocess resume text using regular expressions (regex).
 
 
 
 Stopwords Removal: 
+
 
 Remove common stopwords using the NLTK library to enhance text analysis.
 
@@ -22,11 +24,13 @@ Remove common stopwords using the NLTK library to enhance text analysis.
 
 Text Vectorization: 
 
+
 Convert textual data to numerical vectors using TF-IDF (Term Frequency-Inverse Document Frequency) technique.
 
 
 
 Model Training: 
+
 
 Train a multi-label classification model from scratch using OneVsRestClassifier.
 
@@ -34,30 +38,14 @@ Train a multi-label classification model from scratch using OneVsRestClassifier.
 
 Interactive Dashboard: 
 
+
 Built with Streamlit, allowing users to upload resumes and view screening results.
 
 
 
 # Project Structure
 
-resume-screening-project/
-│
-├── data/
-│   ├── raw_resumes/                                       # Raw resume files
-│
-├── models/
-│   └── tfidf.pkl                                           # Text to vector convertor
-│   └── trained_model.pkl                                   # Trained classification model
-│
-├── notebooks/
-│   └── data_preprocessing_and_model_training.ipynb         # Jupyter notebook for preprocessing
-│
-├── src/
-│   └── resume_screening_app.py     # Streamlit app script
-│
-├── README.md                       # Project documentation
-├── requirements.txt                # Python dependencies
-
+![image](https://github.com/VarshaYK/NLP-Resume-screening-App/assets/31321685/39b35208-efdf-492a-b4b3-5848ba72190d)
 
 
 
